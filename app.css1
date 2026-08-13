@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.landing-content {
+  padding: 30px;
+}
+
+.landing-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.landing-content p {
+  font-size: 20px;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
